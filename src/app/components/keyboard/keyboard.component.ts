@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class KeyboardComponent implements OnInit {
 
   public firstRow = ['q','w','e','r','t','y','u','i','o','p'];
-  public secondRow = ['a','s','d','f','g','h','j','k','l'];
-  public thirdRow = ['z','x','c','v','b','n','m'];
+  public secondRow = ['a','s','d','f','g','h','j','k','l','DELETE'];
+  public thirdRow = ['z','x','c','v','b','n','m','ENTER'];
 
   constructor() { }
 
